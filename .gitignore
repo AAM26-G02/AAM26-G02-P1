@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Gestión de datos pesados (deben guardarse aquí para ser ignorados)
+# En otras carpetas como data/sample no habrá problemas
+data/raw/
+data/processed/
