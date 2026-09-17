@@ -1,16 +1,25 @@
 # Market Base
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narratech/market-base/blob/main/notebooks/market_base.ipynb)
-
 Asignatura: 
 Grupo: 
 Autores:
 Nombre Alumno 1 (@usuario_github)
 Nombre Alumno 2 (@usuario_github)
 
-Este repositorio contiene el punto de partida para hacer Minería de Datos sobre un conjunto de datos sobre el catálogo de videojuegos e la tienda Steam, recorriendo las etapas de adquisición, limpieza, transformación, visualización y extracción de conocimiento para la toma de decisiones en el sector del videojuego.
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narratech/market-base/blob/main/notebooks/market_base.ipynb)
 
-## Estructura del proyecto
+Este repositorio contiene el punto de partida para la práctica [Estudio del Mercado de Steam](https://narratech.com/es/aprendizaje-automatico-y-mineria-de-datos/mineria-de-datos/estudio-del-mercado-de-steam/) de la asignatura Aprendizaje Automático y Minería de Datos. 
+
+Para replicar el entorno de ejecución (con numpy, pandas, matplotlib, etc.) se puede usar Conda 26.7.2 y el fichero *environment.yml* de este repositorio:
+```
+conda env create -f environment.yml
+conda activate aam 
+```
+
+## Objetivo de la práctica
+Trabajar sobre un conjunto de datos que representa el catálogo de videojuegos en la tienda Steam (Steam Games Dataset, descargado de Kaggle el 17 de septiembre de 2026), recorriendo las etapas de adquisición, limpieza, transformación, visualización y extracción de conocimiento para la toma de decisiones en el sector del videojuego.
+
+## Estructura del repositorio
 
 El repositorio sigue la siguiente arquitectura de archivos y carpetas estándar para proyectos de Ciencia de Datos:
 
@@ -18,26 +27,22 @@ El repositorio sigue la siguiente arquitectura de archivos y carpetas estándar 
 market-base/
 ├── data/
 │   ├── raw/          # Datasets brutos descargados automáticamente (ignorado por Git)
+│   ├── processed/    # Datasets procesados (ignorado por Git)
 │   └── sample/       # Muestras o datos auxiliares pequeños
 ├── notebooks/
-│   └── market_base.ipynb  # Cuaderno principal con el análisis (Bloques A-E)
+│   └── market_base.ipynb  # Cuaderno principal con la plantilla del análisis (Bloques A-E)
 ├── .gitignore        # Configuración de exclusiones de Git (evita subir datos pesados)
 └── README.md         # Documentación general del repositorio
+└── environment.yml   # Entorno de ejecución para Conda
+```
 
-Los archivos dentro de data/raw/ (como games.csv) no se almacenan en el control de versiones debido a su tamaño. El propio cuaderno interactivo se encarga de descargarlos e importarlos automáticamente desde la Release oficial de este mismo repositorio.
+Los archivos dentro de data/raw/ (como games.csv) y data/processed no se almacenan en el control de versiones debido a su tamaño. El propio cuaderno interactivo se encarga de descargarlos e importarlos automáticamente desde la Release oficial de este mismo repositorio.
 
 ## Requisitos e instalación
 
 Para ejecutar y reproducir el análisis en un entorno local (como **Visual Studio Code** con la extensión de Python y Jupyter), se requieren las siguientes dependencias de Python (3.9+):
 
 Asegúrate de tener instalados los paquetes principales ejecutando en tu entorno virtual o Anaconda Prompt:
-
-### 1. Clonar el repositorio
-```bash
-git clone [https://github.com/tu-organizacion/tu-repositorio.git](https://github.com/tu-organizacion/tu-repositorio.git)
-cd tu-repositorio
-
-No se suben los ficheros de datos que se encuentren en data/raw y data/processed
 
 ## Bloques del estudio
 
@@ -52,6 +57,7 @@ D. Correlaciones y análisis temporal: Evaluación de la relación entre el prec
 E. Nichos de Oportunidad: Identificación de combinaciones de géneros o etiquetas poco saturadas con alta valoración media y redacción del informe de conclusiones generales de mercado.
 
 ## Referencias
-* Bustos, M.: Steam Games Dataset (Kaggle).
-* Valve Corporation: Steam Store.
-* SteamSpy API & Analytics.
+* [Bustos, M.: Steam Games Dataset (Kaggle)](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset)
+* [Valve Corporation: Steam Store](https://store.steampowered.com/)
+* [SteamSpy API & Analytics](https://steamspy.com/)
+
