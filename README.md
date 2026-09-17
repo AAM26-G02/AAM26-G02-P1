@@ -58,6 +58,5 @@ E. Nichos de Oportunidad: Identificación de combinaciones de géneros o etiquet
 
 ## Referencias
 * [Bustos, M.: Steam Games Dataset (Kaggle)](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset)
-* [Valve Corporation: Steam Store](https://store.steampowered.com/)
 * [SteamSpy API & Analytics](https://steamspy.com/)
-
+* [Valve Corporation: Steam Store](https://store.steampowered.com/)
