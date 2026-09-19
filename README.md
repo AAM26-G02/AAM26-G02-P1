@@ -1,12 +1,12 @@
 # Market Base
 
-Asignatura: 
-Grupo: 
+Asignatura: Aprendizaje Automático y Minería de Datos
+Grupo: 02
 Autores:
-Nombre Alumno 1 (@usuario_github)
-Nombre Alumno 2 (@usuario_github)
+Carmen Gómez Becerra (@acostacion)
+Denisa Juarranz Berindea (@M00nHun7r3ss)
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narratech/market-base/blob/main/notebooks/market_base.ipynb)
+<!-- [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AAM26-G02/market-base/blob/main/notebooks/market_base.ipynb) --> 
 
 Este repositorio contiene el punto de partida para la práctica [Estudio del Mercado de Steam](https://narratech.com/es/aprendizaje-automatico-y-mineria-de-datos/mineria-de-datos/estudio-del-mercado-de-steam/) de la asignatura Aprendizaje Automático y Minería de Datos. 
 
