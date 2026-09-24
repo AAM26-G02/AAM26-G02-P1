@@ -57,6 +57,14 @@ D. Correlaciones y análisis temporal: Evaluación de la relación entre el prec
 E. Nichos de Oportunidad: Identificación de combinaciones de géneros o etiquetas poco saturadas con alta valoración media y redacción del informe de conclusiones generales de mercado.
 
 ## Referencias
+// o asi:
 * [Bustos, M.: Steam Games Dataset (Kaggle)](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset)
 * [SteamSpy API & Analytics](https://steamspy.com/)
 * [Valve Corporation: Steam Store](https://store.steampowered.com/)
+
+// no se si lo prefiere en bibliografia formato apa:
+* Display the Pandas DataFrame in table style. (2020, agosto 15). GeeksforGeeks. https://www.geeksforgeeks.org/python/display-the-pandas-dataframe-in-table-style/
+* Navarro, D. (s/f). Auxiliary Python module to get styled terminal outputs in a pythonic way.
+* pandas.DataFrame.size — pandas 3.0.6 documentation. (s/f). Pydata.org. Recuperado el 24 de septiembre de 2026, de https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.size.html
+* Rodríguez, D. (2021, marzo 8). Pandas: Seleccionar las primeras o últimas filas de un DataFrame Pandas con head() o tail(). Analytics Lane. https://www.analyticslane.com/2021/03/08/pandas-seleccionar-las-primeras-o-ultimas-filas-de-un-dataframe-pandas-con-head-o-tail/
+* W3schools.com. (s/f-a). W3Schools. Recuperado el 24 de septiembre de 2026, de https://www.w3schools.com/python/pandas/ref_df_info.asp
