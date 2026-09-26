@@ -68,3 +68,7 @@ E. Nichos de Oportunidad: Identificación de combinaciones de géneros o etiquet
 * pandas.DataFrame.size — pandas 3.0.6 documentation. (s/f). Pydata.org. Recuperado el 24 de septiembre de 2026, de https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.size.html
 * Rodríguez, D. (2021, marzo 8). Pandas: Seleccionar las primeras o últimas filas de un DataFrame Pandas con head() o tail(). Analytics Lane. https://www.analyticslane.com/2021/03/08/pandas-seleccionar-las-primeras-o-ultimas-filas-de-un-dataframe-pandas-con-head-o-tail/
 * W3schools.com. (s/f-a). W3Schools. Recuperado el 24 de septiembre de 2026, de https://www.w3schools.com/python/pandas/ref_df_info.asp
+
+* Display Pantas en gráficos de barras: https://cursosinformatica.ucm.es/trial/dataviz/
+* Gráficos de Barras con MatPlotLib y Pandas: https://www.datacamp.com/es/tutorial/python-bar-plot
+* Historiogramas con Pandas: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.hist.html
